@@ -1,0 +1,78 @@
+Package: circle
+Version: 1.1.2-deb8u3
+Architecture: all
+Maintainer: Tobias Dély <tdely@celerway.com>
+Homepage: https://github.com/nsahq/circle
+Depends: bash (>= 4.0), iptables
+Recommends: ip6tables, ebtables
+Priority: optional
+Section: admin
+Filename: pool/main/c/circle/circle_1.1.2-deb8u3_all.deb
+Size: 12248
+SHA256: 82cc6eacdc1faed710be2bc29dbca543dcb9685d973d8d586c69bdddc305ffec
+SHA1: 5496e4722927d2f85bd303f4505deb048dc90593
+MD5sum: 020dadb165b3c42f489b3a73d21d8480
+Description: circle firewall
+ circle is a manager for iptables/ip6tables and ebtables with a modular rule system.
+
+Package: monroe-experiment-core
+Version: 0.9.0
+Architecture: amd64
+Maintainer: Jonas Karlsson <jonas.karlsson@kau.se>
+Depends: util-linux (>=2.29), docker-ce (>=5:18), circle (>=1.1.2), table-allocator-client (>=0.1.2), table-allocator-server (>=0.1.2), dnsmasq (>=2), rsync (>=3.1.2), ssh (>=1:7), jq (>=1.5), ifupdown (>=0.8.19), dnsutils (>=1:9)
+Vcs-Browser: https://github.com/MONROE-PROJECT/monroe-experiment-core
+Vcs-Git: https://github.com/MONROE-PROJECT/monroe-experiment-core.git
+Priority: optional
+Section: devel
+Filename: pool/main/m/monroe-experiment-core/monroe-experiment-core_0.9.0_amd64.deb
+Size: 16260
+SHA256: 7336387e813f9691732f1efea6866bddf41903d5dad3701294172975da9d1114
+SHA1: 51932677c59f006e8fc93b38bbec963f90f94040
+MD5sum: d4bead1d6d7e7fdadce52417436c3c75
+Description: Enables MONROE experiments to be run on a node
+
+Package: monroe-tap-agent
+Version: 0.1.1
+Architecture: amd64
+Depends: python3-flask (>=0.12.1-1), monroe-experiment-core (>=0.2.0), python3-flask-api (>=0.6.4)
+Installed-Size: 73
+Maintainer: Jonas Karlsson <jonas.karlsson@kau.se>
+Priority: optional
+Section: devel
+Filename: pool/main/m/monroe-tap-agent/monroe-tap-agent_0.1.1_amd64.deb
+Size: 4004
+SHA256: c186b25e0a33f616150b13de9f23d96ff428272e8f18081e6db763db60a4a103
+SHA1: e1b371d0641c6190ce4263244539130a117d9f0a
+MD5sum: e140049200eb381c63cf2eb1fd621de6
+Description: Installs a TAP agent to control and exectue experiments on a monroe node.
+
+Package: table-allocator-client
+Version: 0.1.2-deb8u-20170831x1107-65b66b
+Architecture: amd64
+Depends: libuv1, libjson-c3, libmnl0
+Installed-Size: 130
+Maintainer: Kristian Evensen <kristian.evensen@gmail.com>
+Priority: extra
+Section: devel
+Filename: pool/main/t/table-allocator-client/table-allocator-client_0.1.2-deb8u-20170831x1107-65b66b_amd64.deb
+Size: 37436
+SHA256: 64f5940888b8051d7c1429288b45d8887c9e34ff71ff9ad818cbd35b27e3f5c1
+SHA1: b968896e1c5bb3ff7a7d340e6d73cdb0ba822ade
+MD5sum: 80311cabca3d16e1d58a043b251e4944
+Description: Table Allocator Client is a tool aimed to simplify the configuration of multihomed hosts, and must be used together with the Table Allocator Server. When started, the client will request a table lease from the Table Allocator Server. After the table lease has been acquired, the table will be written to stdout and the tool (by default) will move to the background. The reason for writing the table is so that routes easily can be added or moved to the correct table in for example an ifup script or dhclient-hook. The client tool takes care of adding and removing the required ip rules (rules removed when either address or interface is removed).
+
+Package: table-allocator-server
+Version: 0.1.2-deb8u-20170831x1107-65b66b
+Architecture: amd64
+Depends: libuv1, libjson-c3, libsqlite3-0
+Installed-Size: 161
+Maintainer: Kristian Evensen <kristian.evensen@gmail.com>
+Priority: extra
+Section: devel
+Filename: pool/main/t/table-allocator-server/table-allocator-server_0.1.2-deb8u-20170831x1107-65b66b_amd64.deb
+Size: 39790
+SHA256: d9505681e9ab6bcbf5f5c7cd36e55023037ed3a5dfbd24b423ccb76b2961df24
+SHA1: a9b6c1d00f574f54df03cbb53f6deab469c20916
+MD5sum: a795a9c54725e4e92cc3d63350103de1
+Description: This package contains the Table Allocator Server, for use together with the table allocator client. The purpose of this tool is to distribute and keep track of routing tables on multihomed hosts. Clients will request tables using a basic, well-defined protocols and are then required to refresh them at some configurable interval. The server will free any dead table leases.
+
