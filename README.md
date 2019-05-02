@@ -5,7 +5,8 @@ This experimental repo contains the Open Source Components used to build a Monro
 As this is a experimental repo the packages are not signed and we muts tell apt to trust the repo by add ing the switch ```[trusted=yes]```
 
 ### add the repo:
-```echo 'deb [trusted=yes] https://raw.githubusercontent.com/MONROE-PROJECT/apt-repo/master stretch main' > /etc/apt/sources.list.d/monroe.list```
+* ```echo 'deb [trusted=yes] https://raw.githubusercontent.com/MONROE-PROJECT/apt-repo/master stretch main' > /etc/apt/sources.list.d/monroe.list```
+* or ``cd /etc/apt/sources.list.d/; wget https://raw.githubusercontent.com/MONROE-PROJECT/apt-repo/master/monroe.list
 
 
 ## To add packages to the repo 
