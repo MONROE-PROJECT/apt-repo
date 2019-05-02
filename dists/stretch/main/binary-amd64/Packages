@@ -16,7 +16,7 @@ Description: circle firewall
  circle is a manager for iptables/ip6tables and ebtables with a modular rule system.
 
 Package: monroe-experiment-core
-Version: 0.9.0
+Version: 0.9.1
 Architecture: amd64
 Maintainer: Jonas Karlsson <jonas.karlsson@kau.se>
 Depends: util-linux (>=2.29), docker-ce (>=5:18), circle (>=1.1.2), table-allocator-client (>=0.1.2), table-allocator-server (>=0.1.2), dnsmasq (>=2), rsync (>=3.1.2), ssh (>=1:7), jq (>=1.5), ifupdown (>=0.8.19), dnsutils (>=1:9)
@@ -24,26 +24,26 @@ Vcs-Browser: https://github.com/MONROE-PROJECT/monroe-experiment-core
 Vcs-Git: https://github.com/MONROE-PROJECT/monroe-experiment-core.git
 Priority: optional
 Section: devel
-Filename: pool/main/m/monroe-experiment-core/monroe-experiment-core_0.9.0_amd64.deb
-Size: 16260
-SHA256: 7336387e813f9691732f1efea6866bddf41903d5dad3701294172975da9d1114
-SHA1: 51932677c59f006e8fc93b38bbec963f90f94040
-MD5sum: d4bead1d6d7e7fdadce52417436c3c75
+Filename: pool/main/m/monroe-experiment-core/monroe-experiment-core_0.9.1_amd64.deb
+Size: 16364
+SHA256: 72cb7d31f7472d3d00a7808af1e691ba620c9817fafa5865664f5736ef5b62c6
+SHA1: bf93e3d5d34ba7fa7abc2a7f3f2afa139a411db8
+MD5sum: 373260779b93e68f08360b9e298a16cd
 Description: Enables MONROE experiments to be run on a node
 
 Package: monroe-tap-agent
-Version: 0.1.1
+Version: 0.1.2
 Architecture: amd64
-Depends: python3-flask (>=0.12.1-1), monroe-experiment-core (>=0.2.0), python3-flask-api (>=0.6.4)
+Depends: python3-flask (>=0.12.1-1), monroe-experiment-core (>=0.2.0), python3-flask-api (>=0.6.4), openssl (>=1.1)
 Installed-Size: 73
 Maintainer: Jonas Karlsson <jonas.karlsson@kau.se>
 Priority: optional
 Section: devel
-Filename: pool/main/m/monroe-tap-agent/monroe-tap-agent_0.1.1_amd64.deb
-Size: 4004
-SHA256: c186b25e0a33f616150b13de9f23d96ff428272e8f18081e6db763db60a4a103
-SHA1: e1b371d0641c6190ce4263244539130a117d9f0a
-MD5sum: e140049200eb381c63cf2eb1fd621de6
+Filename: pool/main/m/monroe-tap-agent/monroe-tap-agent_0.1.2_amd64.deb
+Size: 5698
+SHA256: 6a646361a8c077d1b25662943f4500ef2971191e8f4d2a3c1d6e0f1cfef9cd50
+SHA1: 321c45c082f28bd3721baaa3e1bac3cb35fa3c94
+MD5sum: 75482d4bb87f28763e2eeb872f73133d
 Description: Installs a TAP agent to control and exectue experiments on a monroe node.
 
 Package: table-allocator-client
