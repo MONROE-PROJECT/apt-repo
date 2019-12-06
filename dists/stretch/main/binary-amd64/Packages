@@ -16,35 +16,66 @@ Description: circle firewall
  circle is a manager for iptables/ip6tables and ebtables with a modular rule system.
 
 Package: monroe-experiment-core
-Version: 0.9.1
+Version: 0.9.2
 Architecture: amd64
 Maintainer: Jonas Karlsson <jonas.karlsson@kau.se>
-Depends: util-linux (>=2.29), docker-ce (>=5:18), circle (>=1.1.2), table-allocator-client (>=0.1.2), table-allocator-server (>=0.1.2), dnsmasq (>=2), rsync (>=3.1.2), ssh (>=1:7), jq (>=1.5), ifupdown (>=0.8.19), dnsutils (>=1:9)
+Depends: util-linux (>=2.29), docker-ce (>=5:18), circle (>=1.1.2), table-allocator-client (>=0.1.2), table-allocator-server (>=0.1.2), dnsmasq (>=2), rsync (>=3.1.2), ssh-client, jq (>=1.5), ifupdown (>=0.8.19), dnsutils (>=1:9)
 Vcs-Browser: https://github.com/MONROE-PROJECT/monroe-experiment-core
 Vcs-Git: https://github.com/MONROE-PROJECT/monroe-experiment-core.git
 Priority: optional
 Section: devel
-Filename: pool/main/m/monroe-experiment-core/monroe-experiment-core_0.9.1_amd64.deb
-Size: 16364
-SHA256: 72cb7d31f7472d3d00a7808af1e691ba620c9817fafa5865664f5736ef5b62c6
-SHA1: bf93e3d5d34ba7fa7abc2a7f3f2afa139a411db8
-MD5sum: 373260779b93e68f08360b9e298a16cd
+Filename: pool/main/m/monroe-experiment-core/monroe-experiment-core_0.9.2_amd64.deb
+Size: 16254
+SHA256: 88d48055fb4d0e6ba6c854e63f956087b45feddcdfb114d70695e3da943b1b9f
+SHA1: ca342f5294f95f47b4c23b907e5bbc06cd8c9a06
+MD5sum: 87e3c01b2c52f3a4144e1fa702aa1f9f
+Description: Enables MONROE experiments to be run on a node
+
+Package: monroe-experiment-core-rela
+Version: 1.0.0
+Architecture: amd64
+Maintainer: Jonas Karlsson <jonas.karlsson@kau.se>
+Depends: util-linux (>=2.29), docker-ce (>=5:18), circle (>=1.1.2), table-allocator-client (>=0.1.2), table-allocator-server (>=0.1.2), dnsmasq (>=2), rsync (>=3.1.2), ssh-client, jq (>=1.5), ifupdown (>=0.8.19), dnsutils (>=1:9)
+Vcs-Browser: https://github.com/MONROE-PROJECT/monroe-experiment-core
+Vcs-Git: https://github.com/MONROE-PROJECT/monroe-experiment-core.git
+Priority: optional
+Section: devel
+Filename: pool/main/m/monroe-experiment-core-rela/monroe-experiment-core-rela_1.0.0_amd64.deb
+Size: 16264
+SHA256: ed41cc036e0b79eb70789900e458092c666a9d6ff86c1ca0ceb2f34efe085820
+SHA1: 7b6972e2762beb88173f7134edb0fc9b39a3ead1
+MD5sum: 51f0d7b4b62cea9aa7c079a76633f6c0
 Description: Enables MONROE experiments to be run on a node
 
 Package: monroe-tap-agent
-Version: 0.1.2
+Version: 0.1.3
 Architecture: amd64
 Depends: python3-flask (>=0.12.1-1), monroe-experiment-core (>=0.2.0), python3-flask-api (>=0.6.4), openssl (>=1.1)
 Installed-Size: 73
 Maintainer: Jonas Karlsson <jonas.karlsson@kau.se>
 Priority: optional
 Section: devel
-Filename: pool/main/m/monroe-tap-agent/monroe-tap-agent_0.1.2_amd64.deb
-Size: 5698
-SHA256: 6a646361a8c077d1b25662943f4500ef2971191e8f4d2a3c1d6e0f1cfef9cd50
-SHA1: 321c45c082f28bd3721baaa3e1bac3cb35fa3c94
-MD5sum: 75482d4bb87f28763e2eeb872f73133d
+Filename: pool/main/m/monroe-tap-agent/monroe-tap-agent_0.1.3_amd64.deb
+Size: 5710
+SHA256: bf2605cafceabe32a401470f5a74263d1cb275b3c905d41accbf87a4fead3b69
+SHA1: f5d1cbc20e587b9c76527235586886e4f5883eda
+MD5sum: 3947a63010c2fd041e335762456c0881
 Description: Installs a TAP agent to control and exectue experiments on a monroe node.
+
+Package: monroe-tap-agent-rela
+Version: 1.0.0
+Architecture: amd64
+Depends: python3-flask (>=0.12.1-1), monroe-experiment-core (>=0.2.0), python3-flask-api (>=0.6.4), openssl (>=1.1)
+Installed-Size: 73
+Maintainer: Jonas Karlsson <jonas.karlsson@kau.se>
+Priority: optional
+Section: devel
+Filename: pool/main/m/monroe-tap-agent-rela/monroe-tap-agent-rela_1.0.0_amd64.deb
+Size: 5718
+SHA256: a3e72d8e434d8872c0ef34b710d068607596ef4300fad92763d5d3df3e6afd4c
+SHA1: 7bb96b339b57d8edee778afb3423578c061b81bf
+MD5sum: 3e0ad3aad8fe102a36aba91b8edc44f0
+Description: Installs a TAP agent to control and execute experiments on a monroe node.
 
 Package: table-allocator-client
 Version: 0.1.2-deb8u-20170831x1107-65b66b
