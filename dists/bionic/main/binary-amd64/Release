@@ -1,0 +1,6 @@
+Archive: stable
+Component: main
+Origin: MONROE Project
+Label: MONROE-PROJECT Github
+Architecture: amd64
+Description: Open Source Ubuntu AMD64 packages hosted on MONROE-PROJECT Github repository (https://github.com/MONROE-PROJECT)

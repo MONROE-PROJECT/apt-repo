@@ -5,3 +5,11 @@ Codename: stretch
 Architectures: amd64
 Components: main
 Description: Open Source Debian AMD64 packages hosted on MONROE-PROJECT Github repository (https://github.com/MONROE-PROJECT)
+
+Origin: MONROE Project 
+Label: MONROE-PROJECT Github
+Suite: stable
+Codename: bionic
+Architectures: amd64
+Components: main
+Description: Open Source Ubuntu AMD64 packages hosted on MONROE-PROJECT Github repository (https://github.com/MONROE-PROJECT)
