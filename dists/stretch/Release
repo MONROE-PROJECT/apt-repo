@@ -2,19 +2,19 @@ Origin: MONROE Project
 Label: MONROE-PROJECT Github
 Suite: stable
 Codename: stretch
-Date: Tue, 25 Feb 2020 14:46:53 UTC
+Date: Thu, 19 Mar 2020 06:42:58 UTC
 Architectures: amd64
 Components: main
 Description: Open Source Debian AMD64 packages hosted on MONROE-PROJECT Github repository (https://github.com/MONROE-PROJECT)
 MD5Sum:
- 9cd5ea35e46e5aa2abce3fa0842674be 6296 main/binary-amd64/Packages
- 1f97a515dd22839df814123592dfaf3c 2261 main/binary-amd64/Packages.gz
+ aca3644df4b7b69dd6696f3f280503ef 6296 main/binary-amd64/Packages
+ ddede996dad1b51e91984ad9edb4337d 2249 main/binary-amd64/Packages.gz
  c5ac1c8a5e2f83573936b514e989d581 230 main/binary-amd64/Release
 SHA1:
- 969f2f86a59ef5472f902946d04e60e5b44b9e57 6296 main/binary-amd64/Packages
- 0068081a0f70e887c4fd4a44118bb5f54037733a 2261 main/binary-amd64/Packages.gz
+ 400921331820cfbba64476205b819c106064dc3b 6296 main/binary-amd64/Packages
+ 4c80881712815899bffd1e441c6f4db443cd4b46 2249 main/binary-amd64/Packages.gz
  bef001968e04382e8e5fa0f6d20a5f73808efef0 230 main/binary-amd64/Release
 SHA256:
- c21fee78847aed5e2a9020395de9c2fdbe0c5bcd26287ac521119957dd7d9998 6296 main/binary-amd64/Packages
- abe58091ac094524d691953edf29f8ec087dc7a7e3db81f8bc13327447abb4de 2261 main/binary-amd64/Packages.gz
+ b44f6936130e62232ff7116d5682bab214ccad3d8bafd5e6113981604ba98b3d 6296 main/binary-amd64/Packages
+ 1ce0d81a70ce913c67fc0414755b03847c26125e3f32506be12909e4890a8e2e 2249 main/binary-amd64/Packages.gz
  c8a108adeff7e2d65ba6d7859fe0b4ac3a80b03d1ba0ab78b6d9baca293b135d 230 main/binary-amd64/Release
