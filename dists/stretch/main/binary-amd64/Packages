@@ -32,7 +32,7 @@ MD5sum: 84e6ded336783af029b9b5ba3431c20d
 Description: Enables MONROE experiments to be run on a node
 
 Package: monroe-experiment-core-rela
-Version: 1.0.1
+Version: 1.0.2
 Architecture: amd64
 Maintainer: Jonas Karlsson <jonas.karlsson@kau.se>
 Depends: util-linux (>=2.29), docker-ce (>=5:18), circle (>=1.1.2), table-allocator-client (>=0.1.2), table-allocator-server (>=0.1.2), dnsmasq (>=2), rsync (>=3.1.2), ssh-client, jq (>=1.5), ifupdown (>=0.8.19), dnsutils (>=1:9)
@@ -40,11 +40,11 @@ Vcs-Browser: https://github.com/MONROE-PROJECT/monroe-experiment-core
 Vcs-Git: https://github.com/MONROE-PROJECT/monroe-experiment-core.git
 Priority: optional
 Section: devel
-Filename: pool/main/m/monroe-experiment-core-rela/monroe-experiment-core-rela_1.0.1_amd64.deb
-Size: 16650
-SHA256: 17083293749599da1ccd7c6a2f1b403213b6316f17945b18a5a3ce8f587e818e
-SHA1: e2dac68f3e8dcd756cbaba2713ad6280f3314b0d
-MD5sum: 8ce126b0c6f3823ad34da664eb49cff4
+Filename: pool/main/m/monroe-experiment-core-rela/monroe-experiment-core-rela_1.0.2_amd64.deb
+Size: 16668
+SHA256: 56c7f86452b60e0959c64382502794bf5ba2b0f74db7e3479b087d3e6c0af2c9
+SHA1: 97c941e7deb25d24d85765c3fcc57faa980786c0
+MD5sum: 5dce33198cdcf0b388b23cce44a508e0
 Description: Enables MONROE experiments to be run on a node
 
 Package: monroe-extension-neat
