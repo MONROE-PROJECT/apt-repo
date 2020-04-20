@@ -16,7 +16,7 @@ Description: circle firewall
  circle is a manager for iptables/ip6tables and ebtables with a modular rule system.
 
 Package: monroe-experiment-core
-Version: 0.9.5-deb8
+Version: 0.9.6-deb8
 Architecture: amd64
 Maintainer: Jonas Karlsson <jonas.karlsson@kau.se>
 Depends: util-linux (>=2.29), docker-ce (>=5:18), circle (>=1.1.2), table-allocator-client (>=0.1.2), table-allocator-server (>=0.1.2), dnsmasq (>=2), rsync (>=3.1.2), ssh-client, jq (>=1.5), ifupdown (>=0.8.19) | networkd-dispatcher (>=1.7), dnsutils (>=1:9), ipcalc (>=0.41-5), net-tools (>=1.60)
@@ -24,11 +24,11 @@ Vcs-Browser: https://github.com/MONROE-PROJECT/monroe-experiment-core
 Vcs-Git: https://github.com/MONROE-PROJECT/monroe-experiment-core.git
 Priority: optional
 Section: devel
-Filename: pool/main/m/monroe-experiment-core/monroe-experiment-core_0.9.5-deb8_amd64.deb
-Size: 16972
-SHA256: 417c642b64d604863e4def55b94bcca83360448e0b26ed44f20a49f0e21b88f3
-SHA1: 1405880f859a905d397b97049ac1bda8c330235d
-MD5sum: 52c1911fa971296726575e3d5d3aeb09
+Filename: pool/main/m/monroe-experiment-core/monroe-experiment-core_0.9.6-deb8_amd64.deb
+Size: 17106
+SHA256: 79132a37adc265020d6b8975e21198f9f539207fb4e79ba986cab14af15e06cc
+SHA1: 1c80f13f9c1505d49cc36c89645bf4dfb3a76b1b
+MD5sum: 42193ecbd8d1f81d9523f63216e789f1
 Description: Enables MONROE experiments to be run on a node
 
 Package: monroe-experiment-core-rela
