@@ -2,19 +2,19 @@ Origin: MONROE Project
 Label: MONROE-PROJECT Github
 Suite: stable
 Codename: bionic
-Date: Thu, 23 Jan 2020 06:55:23 UTC
+Date: Mon, 20 Apr 2020 13:31:21 UTC
 Architectures: amd64
 Components: main
 Description: Open Source Ubuntu AMD64 packages hosted on MONROE-PROJECT Github repository (https://github.com/MONROE-PROJECT)
 MD5Sum:
- 9bded6af5c5ea8568f71a969c3c37153 4212 main/binary-amd64/Packages
- 832f4d5dd2a56babbc02bef69c045289 1875 main/binary-amd64/Packages.gz
+ 07c4fc57a77073d44b7d453cce830df0 5021 main/binary-amd64/Packages
+ b7d21399aa7d38c9b264e10a1415b9e5 2084 main/binary-amd64/Packages.gz
  b470f5a83fcf54c01ec0b3fd5c90fc7f 230 main/binary-amd64/Release
 SHA1:
- 897d00366a57ed126757e95838da171848709d42 4212 main/binary-amd64/Packages
- 24238663d50304d16832f6fe88f250e2975ff204 1875 main/binary-amd64/Packages.gz
+ 774c139ff096bada818b3d8caf9e415ee9426869 5021 main/binary-amd64/Packages
+ 9527c6d0260d5970dd62f5dc9eb04da0d28180ab 2084 main/binary-amd64/Packages.gz
  940b03552e83e8f26a5d388c9e8a4ddbf6387220 230 main/binary-amd64/Release
 SHA256:
- f30d066c88b0c5da995e11f87ecb2e75d91ad4c224306b365e171c8fe191a3d8 4212 main/binary-amd64/Packages
- 6d53a27f516919eafa75400f49736f9f7fbcee3792d9a74133a41812c7bdec24 1875 main/binary-amd64/Packages.gz
+ dcafc5f5dc434dfd3c96f38eda5d8c52939c67d9a581530a6e289d883831471f 5021 main/binary-amd64/Packages
+ 87bf88045eb3451b1dabdac9b4c3d3bc4a54374b0c1c8f92a78a90ee04e8ceb0 2084 main/binary-amd64/Packages.gz
  144a6312d2dbab33434204b7d4fec77dcd6a865e46c8c2560e2753dd7495d096 230 main/binary-amd64/Release
