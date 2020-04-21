@@ -16,7 +16,7 @@ Description: circle firewall
  circle is a manager for iptables/ip6tables and ebtables with a modular rule system.
 
 Package: monroe-experiment-core
-Version: 0.9.8-deb8
+Version: 0.9.9-deb8
 Architecture: amd64
 Maintainer: Jonas Karlsson <jonas.karlsson@kau.se>
 Depends: util-linux (>=2.29), docker-ce (>=5:18), circle (>=1.1.2), table-allocator-client (>=0.1.2), table-allocator-server (>=0.1.2), dnsmasq (>=2), rsync (>=3.1.2), ssh-client, jq (>=1.5), ifupdown (>=0.8.19) | networkd-dispatcher (>=1.7), dnsutils (>=1:9), ipcalc (>=0.41-5), net-tools (>=1.60)
@@ -24,11 +24,11 @@ Vcs-Browser: https://github.com/MONROE-PROJECT/monroe-experiment-core
 Vcs-Git: https://github.com/MONROE-PROJECT/monroe-experiment-core.git
 Priority: optional
 Section: devel
-Filename: pool/main/m/monroe-experiment-core/monroe-experiment-core_0.9.8-deb8_amd64.deb
-Size: 17120
-SHA256: b9c5c25352855d6fd34256d47d827f1e63f2a3a75f9bf48d91267d642c6a9605
-SHA1: c3ca89ea532726dba903f97b024f681239738515
-MD5sum: cf10cec64f2509f16f172a5f2006cad3
+Filename: pool/main/m/monroe-experiment-core/monroe-experiment-core_0.9.9-deb8_amd64.deb
+Size: 16890
+SHA256: be5aa7dc812b1e651a21ad8e8141113dde863509866603503bba28156da6cae4
+SHA1: 6599b4c7c7d0901fdc96c3cd908ebe9e2773a664
+MD5sum: 298536e48426dbe9febe0e2a68eab94a
 Description: Enables MONROE experiments to be run on a node
 
 Package: monroe-experiment-core-rela
@@ -47,35 +47,19 @@ SHA1: 97c941e7deb25d24d85765c3fcc57faa980786c0
 MD5sum: 5dce33198cdcf0b388b23cce44a508e0
 Description: Enables MONROE experiments to be run on a node
 
-Package: monroe-extension-neat
-Version: 0.0.2
-Architecture: amd64
-Maintainer: Jonas Karlsson <jonas.karlsson@kau.se>
-Depends: monroe-experiment-core (>=0.2.0)
-Vcs-Browser: https://github.com/MONROE-PROJECT/monroe-experiment-core
-Vcs-Git: https://github.com/MONROE-PROJECT/monroe-experiment-core.git
-Priority: optional
-Section: devel
-Filename: pool/main/m/monroe-extension-neat/monroe-extension-neat_0.0.2_amd64.deb
-Size: 1744
-SHA256: acfca5a3f3a7d936ee9bfa4b11ec05fab8d5d4a715340aa820f01f3c295e5588
-SHA1: abfb9536ef9d447e6502ec5af326fa3bc142ba0f
-MD5sum: c32a3597856190c46cb7db44426ff555
-Description: Enables MONROE experiments to tunnel TCP traffic through NEAT
-
 Package: monroe-tap-agent
-Version: 0.1.6-deb8
+Version: 0.1.7-deb8
 Architecture: amd64
 Depends: python3-flask (>=0.12.1-1), monroe-experiment-core (>=0.2.0), python3-flask-api (>=0.6.4), openssl (>=1.1)
 Installed-Size: 73
 Maintainer: Jonas Karlsson <jonas.karlsson@kau.se>
 Priority: optional
 Section: devel
-Filename: pool/main/m/monroe-tap-agent/monroe-tap-agent_0.1.6-deb8_amd64.deb
-Size: 4890
-SHA256: e36b2f0ec3d0cd6db1817826f2098518ba01dbcc6bce32dc8def638e324961a4
-SHA1: 7fbcc49aa2024480a58448afa12e5a1ac29840cb
-MD5sum: 78855cc44d9bc6a579c0e808151dd8a4
+Filename: pool/main/m/monroe-tap-agent/monroe-tap-agent_0.1.7-deb8_amd64.deb
+Size: 4616
+SHA256: 75744afc52b63e32cfe08791fc690a7cf04558f79580c3ffc0b4d623d6552dc6
+SHA1: 5797f747c75f2ccc566aa677312608d3c2b590e3
+MD5sum: 7350f7a0d0dd525400de1285159ecde6
 Description: Installs a TAP agent to control and exectue experiments on a monroe node.
 
 Package: monroe-tap-agent-rela
