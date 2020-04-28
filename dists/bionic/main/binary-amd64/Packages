@@ -32,7 +32,7 @@ MD5sum: 46595878cabc41cacf0c193886908f5b
 Description: Enables MONROE experiments to be run on a node
 
 Package: monroe-extension-neat
-Version: 0.0.6.1-1ubuntu1
+Version: 0.0.7-1ubuntu1
 Architecture: amd64
 Maintainer: Jonas Karlsson <jonas.karlsson@kau.se>
 Depends: monroe-experiment-core (>=0.2.0), linux-tools-generic-hwe-18.04 (>=5.3.0), linux-image-generic-hwe-18.04 (>=5.3.0),  linux-headers-generic-hwe-18.04 (>=5.3.0)
@@ -40,11 +40,11 @@ Vcs-Browser: https://github.com/MONROE-PROJECT/monroe-experiment-core
 Vcs-Git: https://github.com/MONROE-PROJECT/monroe-experiment-core.git
 Priority: optional
 Section: devel
-Filename: pool/main/m/monroe-extension-neat/monroe-extension-neat_0.0.6.1-1ubuntu1_amd64.deb
-Size: 2044
-SHA256: ad7e79e080a1af061caafbe8bd70b7ba5eb71176838f4323f19b1ca0ac36f55a
-SHA1: c75341da5a8e38f3ddfbd38550cd1f518f2f27f4
-MD5sum: 45963b7a35d738801042eff2d87b8a3d
+Filename: pool/main/m/monroe-extension-neat/monroe-extension-neat_0.0.7-1ubuntu1_amd64.deb
+Size: 2092
+SHA256: a74c6a9f9881d1a31ef42664d1836ea37b37f6a856d8c65fa1cd3dc119a51735
+SHA1: 11fa40b66926493d6f2f42d4cbb7bca8b2302b22
+MD5sum: b21b2ca196ae6ca7536b28707fa47718
 Description: Enables MONROE experiments to tunnel TCP traffic through NEAT
 
 Package: monroe-tap-agent
